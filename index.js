@@ -77,12 +77,13 @@ ex: --avalon 6.2 longfen-arms 01/01 00h`
         const url = "https://script.google.com/macros/s/AKfycbw1bdidXyKKzRsnjuBrjFfMwIaiKphhL4rHkv59TCp19Ze-mcHpMmtqt-nXsKVxbJ4/exec"
         const msg = `**Dg Avalon Fullclear ${tier}** @here
 
-Mapa: \` ${mapa} \`
+Portal: \` ${mapa} \`
 Dia: \` ${dia} \`
 Hora: \` ${hora} \`
 IP: \` ${ip} \`
 
 Builds: <#770027301386977330>
+Instruções: <#900961551152971796>
 
 <:1:867950823165009920> Tank martelo: \`  \`
 <:2:867950824800792596> Tank cambriana: \`  \`
@@ -266,12 +267,13 @@ client.on('messageReactionAdd', async(reaction_orig, user) => {
 
                     const msg = `**Dg Avalon Fullclear ${body.tier[0][0]}** @here
 
-Mapa: \` ${body.mapa[0][0]} \`
+Portal: \` ${body.mapa[0][0]} \`
 Dia: \` ${body.dia[0][0]} \`
 Hora: \` ${body.hora[0][0]} \`
 IP: \` ${body.ip} \`
 
 Builds: <#770027301386977330>
+Instruções: <#900961551152971796>
 
 <:1:867950823165009920> Tank martelo: \` ${body.funcao1[0][0]} \`
 <:2:867950824800792596> Tank cambriana: \` ${body.funcao2[0][0]} \`
@@ -422,12 +424,13 @@ client.on('messageReactionRemove', async(reaction_orig, user) => {
 
                     const msg = `**Dg Avalon Fullclear ${body.tier[0][0]}** @here
 
-Mapa: \` ${body.mapa[0][0]} \`
+Portal: \` ${body.mapa[0][0]} \`
 Dia: \` ${body.dia[0][0]} \`
 Hora: \` ${body.hora[0][0]} \`
 IP: \` ${body.ip} \`
 
 Builds: <#770027301386977330>
+Instruções: <#900961551152971796>
 
 <:1:867950823165009920> Tank martelo: \` ${body.funcao1[0][0]} \`
 <:2:867950824800792596> Tank cambriana: \` ${body.funcao2[0][0]} \`
